@@ -1,5 +1,12 @@
 # AQI MERN Project Documentation
 
+For the refrence i have also attached a vidio link of the project(https://drive.google.com/drive/folders/1H73B3IA3YeR63JDbXuJyxvBR6MOpEk_E?usp=sharing)
+
+In order to run the project first clone the project and then move to the respective  folder and install all the libraries.
+To run the backend do:- npm run start
+To run the frontend do:- npm run dev
+Also .evn is vsible for easy working of it, although it should not be pushed to git.
+
 ## 1. Project Structure Overview
 
 ```
@@ -15,7 +22,7 @@ backend/
 │   └── waqiService.js
 │
 ├── utils/
-│   └── cache.js  (if present)
+│   └── cache.js 
 │
 ├── .env
 ├── config.js
@@ -26,8 +33,6 @@ backend/
 
 frontend/aqi-app/
 │
-├── public/
-│
 ├── src/
 │   ├── components/
 │   │   ├── AqiHeader.jsx
@@ -35,7 +40,6 @@ frontend/aqi-app/
 │   │   └── CachedCityList.jsx
 │   │
 │   ├── App.jsx
-│   ├── App.css
 │   ├── index.css
 │   ├── main.jsx
 │   └── vite.config.js
